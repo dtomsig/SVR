@@ -15,7 +15,11 @@ html {}
 /*  ----- Viewport ----- elements inherited by all remaining elements ----- */
 body    /* Can alternatively define in html {} or :root {} */
 {
-    background-color: rgb(80, 80, 90);
+    background-attachment: fixed;
+    background-image: url("background.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: rgb(223, 205, 250);
     font-family: Arial, sans-serif;
 }
@@ -46,7 +50,7 @@ header {}
 
 main
 {
-    background-color: rgb(32, 22, 78);
+    background-color: rgba(32, 22, 78, 0.8);
     border: 1px solid black;
     margin: auto;
     margin-bottom: 100px;
